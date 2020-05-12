@@ -1,0 +1,2 @@
+git+https://github.com/tesserae/tesserae-v5.git#egg=tesserae
+git+https://github.com/tesserae/apitess.git#egg=tesserae

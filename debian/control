@@ -1,0 +1,15 @@
+Source: v5-test
+Section: python
+Priority: extra
+Maintainer: Nozomu Okuda <nozomuok@buffalo.edu>
+Build-Depends: debhelper (>= 9), python3, dh-virtualenv (>= 1.0), git,
+    python3-setuptools, python3-pip, python3-dev, libffi-dev
+Standards-Version: 3.9.5
+X-Python3-Version: >= 3.6
+
+Package: v5-test
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), python3 (>=3.6), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: really neat package!
+ second line can contain extra information about it.
